@@ -1,7 +1,7 @@
 {
   "name": "halloween-night",
   "displayName": "Halloween Night",
-  "description": "🍷Halloween cocktail made from vampire blood, pumpkin, clown hair and grave soil. 🎃 Bon appetit! ",
+  "description": "🍷Halloween cocktail made from vampire blood, pumpkin, clown hair and grave soil. Bon appetit! ",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.83.0"
@@ -14,7 +14,7 @@
       {
         "label": "Halloween Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/Halloween Night-color-theme.json"
+        "path": "./themes/halloween-night-color-theme.json"
       }
     ]
   }
