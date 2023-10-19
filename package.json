@@ -1,10 +1,17 @@
 {
   "name": "halloween-night",
   "displayName": "Halloween Night",
-  "description": "🍷Halloween cocktail made from vampire blood, pumpkin, clown hair and grave soil. Bon appetit! ",
+  "description": "🍷 Cocktail made from vampire blood, pumpkin juice, spider legs, clown hair and grave soil. Bon appetit!",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.83.0"
+  },
+  "license": "MIT",
+  "publisher": "RuslanRystsov",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smallreflection/teal-night.git"
   },
   "categories": [
     "Themes"
