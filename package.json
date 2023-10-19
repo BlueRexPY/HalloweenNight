@@ -2,7 +2,7 @@
   "name": "halloween-night",
   "displayName": "Halloween Night",
   "description": "🍷 Cocktail made from vampire blood, pumpkin juice, spider legs, clown hair and grave soil. Bon appetit!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.83.0"
   },
