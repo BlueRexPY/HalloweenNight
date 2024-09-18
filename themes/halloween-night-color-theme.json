@@ -184,7 +184,7 @@
 		"titleBar.inactiveBackground": "#1a1a1a",
 		"titleBar.inactiveForeground": "#848484",
 		"widget.shadow": "#00000030",
-		"editorInlayHint.background": "#191919",
+		"editorInlayHint.background": "#19191900",
 		"editorInlayHint.foreground": "#786994"
 	},
 	"tokenColors": [
