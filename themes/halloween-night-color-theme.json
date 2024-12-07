@@ -3,7 +3,7 @@
 	"name": "Halloween Night",
 	"type": "dark",
 	"colors": {
-		"activityBar.background": "#1a1a1a",
+		"activityBar.background": "#ff2d2d",
 		"activityBar.border": "#00000060",
 		"activityBar.foreground": "#eeffff",
 		"activityBarBadge.background": "#8669c4",
@@ -58,7 +58,7 @@
 		"editorSuggestWidget.foreground": "#eeffff",
 		"editorSuggestWidget.highlightForeground": "#a480cb",
 		"editorSuggestWidget.selectedBackground": "#00000050",
-		"editorWarning.foreground": "#c3e88d70",
+		"editorWarning.foreground": "#ece68070",
 		"editorWhitespace.foreground": "#eeffff40",
 		"editorWidget.background": "#1a1a1a",
 		"editorWidget.border": "#ff0000",
@@ -78,7 +78,7 @@
 		"input.placeholderForeground": "#eeffff60",
 		"inputValidation.errorBorder": "#ff537050",
 		"inputValidation.infoBorder": "#82aaff50",
-		"inputValidation.warningBorder": "#ffcb6b50",
+		"inputValidation.warningBorder": "#ffee6b50",
 		"list.activeSelectionBackground": "#1a1a1a",
 		"list.activeSelectionForeground": "#a480cb",
 		"list.focusBackground": "#eeffff20",
@@ -125,7 +125,7 @@
 		"scrollbarSlider.activeBackground": "#a480cb",
 		"scrollbarSlider.background": "#eeffff20",
 		"scrollbarSlider.hoverBackground": "#eeffff10",
-		"selection.background": "#eeffff",
+		"selection.background": "#eefeff3a",
 		"settings.checkboxBackground": "#1a1a1a",
 		"settings.checkboxForeground": "#eeffff",
 		"settings.dropdownBackground": "#1a1a1a",
@@ -161,22 +161,22 @@
 		"tab.unfocusedActiveForeground": "#eeffff",
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiBlue": "#82aaff",
-		"terminal.ansiBrightBlack": "#4a4a4a",
+		"terminal.ansiBrightBlack": "#888888",
 		"terminal.ansiBrightBlue": "#82aaff",
 		"terminal.ansiBrightCyan": "#89ddff",
-		"terminal.ansiBrightGreen": "#8669c4",
+		"terminal.ansiBrightGreen": "#83c469",
 		"terminal.ansiBrightMagenta": "#c792ea",
 		"terminal.ansiBrightRed": "#db6363",
 		"terminal.ansiBrightWhite": "#ffffff",
-		"terminal.ansiBrightYellow": "#f0945e",
+		"terminal.ansiBrightYellow": "#f0e95e",
 		"terminal.ansiCyan": "#89ddff",
 		"terminal.ansiGreen": "#75e2c7",
 		"terminal.ansiMagenta": "#c792ea",
 		"terminal.ansiRed": "#ff5370",
 		"terminal.ansiWhite": "#ffffff",
-		"terminal.ansiYellow": "#ffcb6b",
-		"terminal.foreground": "#888888",
-		"textLink.activeForeground": "#8669c4",
+		"terminal.ansiYellow": "#ffe66b",
+		"terminal.foreground": "#dadada",
+		"textLink.activeForeground": "#a68edb",
 		"textLink.foreground": "#8669c4",
 		"titleBar.activeBackground": "#1a1a1a",
 		"titleBar.activeForeground": "#eeffff",
@@ -553,6 +553,7 @@
 				"entity.return-type",
 				"entity.name.type",
 				"entity.name.class",
+				"entity.name.scope-resolution",
 				"storage.type.numeric.go",
 				"storage.type.byte.go",
 				"storage.type.boolean.go",
@@ -577,7 +578,11 @@
 				"storage.type.generic.groovy",
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
+				"storage.type.primitive.groovy",
+				"entity.name.namespace",
+				"entity.name.scope-resolution",
+				"entity.name.enum",
+				"constant.other.enum",
 			],
 			"settings": {
 				"fontStyle": "underline",
@@ -620,6 +625,26 @@
 			],
 			"settings": {
 				"foreground": "#c89cfe"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter",
+			],
+			"settings": {
+				"foreground": "#ffe798"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.property",
+				"variable.other.property",
+				"variable.other.property.js",
+				"variable.other.property.ts",
+			],
+			"settings": {
+				"foreground": "#ffb783",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -865,8 +890,9 @@
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#B267E6"
+				"foreground": "#e66767"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
 }
