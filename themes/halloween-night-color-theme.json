@@ -3,7 +3,7 @@
 	"name": "Halloween Night",
 	"type": "dark",
 	"colors": {
-		"activityBar.background": "#ff2d2d",
+		"activityBar.background": "#1a1a1a",
 		"activityBar.border": "#00000060",
 		"activityBar.foreground": "#eeffff",
 		"activityBarBadge.background": "#8669c4",
