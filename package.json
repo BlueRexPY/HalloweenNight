@@ -2,7 +2,7 @@
   "name": "halloween-night",
   "displayName": "Halloween Night",
   "description": "🍷 A sinister cocktail brewed with the finest vampire blood, a splash of spiced pumpkin juice, crushed spider legs for texture, a dash of clown hair for an eerie twist, and topped with a sprinkle of grave soil for that final touch of dread. Sip... if you dare. Bon appétit!",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -33,6 +33,6 @@
     ]
   },
   "changelog": {
-    "latest": "Added support for notebook editors, testing UI, chat interfaces, and improved terminal styling"
+     "latest": "Added better colors for debugger mode"
   }
 }
